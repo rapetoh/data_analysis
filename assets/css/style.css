@@ -8,8 +8,17 @@
  */
 
 
+ .data_analysis_projects_cards{
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+ }
 
 
+ #software_developer_title:hover{
+  background-color: hsl(181, 100%, 28%)
+ }
 
 
 /*-----------------------------------*\
@@ -354,6 +363,8 @@ main {
   padding: 3px 12px;
   border-radius: 8px;
 }
+
+
 
 .info_more-btn {
   position: absolute;
@@ -1335,7 +1346,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 200px;
     margin-bottom: 30px;
   }
 
